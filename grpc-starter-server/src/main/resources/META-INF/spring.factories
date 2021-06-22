@@ -1,0 +1,4 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.framework.starter.grpc.server.autoconfigure.GrpcServerDiscoveryAutoConfiguration,\
+com.framework.starter.grpc.server.autoconfigure.GrpcServerAutoConfiguration

@@ -1,0 +1,5 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.framework.starter.discovery.autoconfigure.DiscoveryAutoConfiguration,\
+com.framework.starter.discovery.autoconfigure.EtcdAutoConfiguration,\
+com.framework.starter.discovery.autoconfigure.ZookeeperAutoConfiguration

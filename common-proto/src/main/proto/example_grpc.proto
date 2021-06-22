@@ -1,0 +1,19 @@
+/**
+@description
+grpc interface between sun and earth
+@版本: 1.0.0
+**/
+syntax = "proto3";
+
+import "example.proto";
+
+option java_multiple_files = true;
+option java_package = "ad.framework.pb";
+option java_outer_classname = "ExampleOutService";
+
+service ExampleService {
+    rpc test(Request) returns (Response) {
+
+    }
+
+}
