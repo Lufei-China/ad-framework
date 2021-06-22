@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>grpc-starter-client</module>
-        <module>starter-discovery</module>
         <module>common-util</module>
         <module>grpc-starter-demo</module>
         <module>common-proto</module>
         <module>grpc-starter-server</module>
         <module>sentinel-starter</module>
+        <module>discovery-starter</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
